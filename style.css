@@ -1,0 +1,46 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #eee; }
+
+.app { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+
+.header { text-align: center; margin-bottom: 2rem; }
+.header h1 { font-size: 2.5rem; color: #a78bfa; }
+.subtitle { color: #888; margin-top: 0.25rem; }
+.env-badge { display: inline-block; margin-top: 0.5rem; padding: 2px 10px;
+  border-radius: 999px; font-size: 0.75rem; background: #2d2d2d; color: #a78bfa; }
+
+.form-card { background: #1a1a1a; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+.form-card h2 { margin-bottom: 1rem; color: #a78bfa; }
+.form-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.form-row input, .form-row select { flex: 1; min-width: 120px; padding: 0.5rem 0.75rem;
+  background: #2a2a2a; border: 1px solid #333; border-radius: 8px; color: #eee; }
+.form-row button { padding: 0.5rem 1.25rem; background: #7c3aed; color: white;
+  border: none; border-radius: 8px; cursor: pointer; }
+.form-row button:hover { background: #6d28d9; }
+.error { color: #f87171; margin-top: 0.5rem; font-size: 0.875rem; }
+
+.filters { display: flex; gap: 0.75rem; margin-bottom: 1rem; }
+.filters select { padding: 0.4rem 0.75rem; background: #1a1a1a;
+  border: 1px solid #333; border-radius: 8px; color: #eee; }
+
+.count { color: #666; font-size: 0.875rem; margin-bottom: 1rem; }
+
+.list { display: flex; flex-direction: column; gap: 0.75rem; }
+.empty { color: #555; text-align: center; padding: 2rem; }
+
+.card { display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 1.25rem; border-radius: 10px; background: #1a1a1a; border-left: 4px solid #444; }
+.card--want { border-left-color: #60a5fa; }
+.card--watching { border-left-color: #fbbf24; }
+.card--done { border-left-color: #34d399; }
+
+.card-type { font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+.card-title { font-size: 1rem; margin: 0.2rem 0; }
+.card-rating { font-size: 0.875rem; color: #a78bfa; }
+
+.card-actions { display: flex; gap: 0.5rem; align-items: center; }
+.card-actions select { padding: 0.3rem 0.5rem; background: #2a2a2a;
+  border: 1px solid #333; border-radius: 6px; color: #eee; font-size: 0.8rem; }
+.btn-remove { background: none; border: none; color: #666; font-size: 1rem;
+  cursor: pointer; padding: 0.25rem 0.5rem; border-radius: 4px; }
+.btn-remove:hover { color: #f87171; background: #2a2a2a; }
