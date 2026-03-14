@@ -16,7 +16,7 @@
 
 <script setup>
 import { computed } from 'vue'
-import { STATUSES } from '../composables/useMedia.js'
+import { STATUSES } from './useMedia.js'
 
 const props = defineProps({ item: Object })
 defineEmits(['remove', 'update-status'])
