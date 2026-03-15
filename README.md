@@ -1,6 +1,6 @@
 # Snip Lite
 
-![CI/CD Pipeline](https://img.shields.io/badge/build-passing-brightgreen)
+[![CI/CD Pipeline](https://github.com/khrystynamarholenkopp2023-arch/snip-lite/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/khrystynamarholenkopp2023-arch/snip-lite/actions/workflows/ci-cd.yml)
 ![Version](https://img.shields.io/badge/version-0.1.0-blue)
 
 Веб-застосунок для відстеження медіа: фільмів, серіалів, книг та аніме. Дозволяє вести особистий список з оцінками та статусами перегляду.
