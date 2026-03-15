@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - feature/media-tracker
   pull_request:
     branches:
       - main
+      - feature/media-tracker
 
 jobs:
   build-and-test:
