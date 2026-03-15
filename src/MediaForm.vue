@@ -19,7 +19,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { STATUSES, TYPES } from '../composables/useMedia.js'
+import { STATUSES, TYPES } from './useMedia.js'
 
 const emit = defineEmits(['add'])
 

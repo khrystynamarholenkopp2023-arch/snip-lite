@@ -1,3 +1,5 @@
+import.meta.env.VITE_APP_STATUS
+
 <template>
   <div class="app">
     <header class="header">
@@ -37,9 +39,9 @@
 </template>
 
 <script setup>
-import MediaForm from './components/MediaForm.vue'
-import MediaCard from './components/MediaCard.vue'
-import { useMedia, STATUSES, TYPES } from './composables/useMedia.js'
+import MediaForm from './MediaForm.vue'
+import MediaCard from './MediaCard.vue'
+import { useMedia, STATUSES, TYPES } from './useMedia.js'
 
 const { filtered, filterType, filterStatus, addItem, removeItem, updateStatus } = useMedia()
 
@@ -49,3 +51,7 @@ function handleAdd(data) {
   addItem(data.title, data.type, data.status, data.rating)
 }
 </script>
+
+
+
+

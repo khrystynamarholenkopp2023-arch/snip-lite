@@ -41,22 +41,33 @@ npm run test:unit
 ```
 snip-lite/
 ├── src/
-│   ├── components/
-│   │   ├── MediaCard.vue       # Картка медіа
-│   │   └── MediaForm.vue       # Форма додавання
-│   ├── composables/
-│   │   └── useMedia.js         # Бізнес-логіка
-│   ├── App.vue                 # Кореневий компонент
+│   ├── MediaCard.vue       # Картка медіа
+│   └── MediaForm.vue       # Форма додавання
+│   └── useMedia.js         # Бізнес-логіка
+│   ├── App.vue                 # Кореневий 
 │   └── main.js                 # Точка входу
+│   └── styles.css 
+│
+├── test/
+│   ├── e2e.spec.js     
+│   └── useMedia.broken.test.js    
+│   └── useMedia.test.js        
+│
 ├── public/
 ├── .gitignore
 ├── .env
-├── .env.production
+├── .env.production 
 ├── index.html
 ├── vite.config.js
+├── vitest.config.js
+├── package-lock.json
+├── package.json
+├── playwright.config.js
 └── README.md
+
 ```
 
 ## Live Demo
 
 [snip-lite.vercel.app](https://snip-lite.vercel.app)
+Test change for PR

@@ -30,9 +30,9 @@ body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: #eee; }
 
 .card { display: flex; justify-content: space-between; align-items: center;
   padding: 1rem 1.25rem; border-radius: 10px; background: #1a1a1a; border-left: 4px solid #444; }
-.card--want { border-left-color: #60a5fa; }
-.card--watching { border-left-color: #fbbf24; }
-.card--done { border-left-color: #34d399; }
+.card--want { border-left-color: #fa60e5; }
+.card--watching { border-left-color: #bf60fa; }
+.card--done { border-left-color: #3491d3; }
 
 .card-type { font-size: 0.7rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
 .card-title { font-size: 1rem; margin: 0.2rem 0; }
