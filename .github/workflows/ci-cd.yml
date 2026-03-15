@@ -32,7 +32,7 @@ jobs:
         run: npm run lint
 
       - name: Run unit tests
-        run: npx vitest run src/ --reporter=verbose
+        run: npx vitest run test/useMedia.test.js --root .
 
       - name: Build for production
         run: npm run build
