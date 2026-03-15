@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import { useMedia, STATUSES, TYPES } from './src/useMedia.js'
+import { useMedia, STATUSES, TYPES } from '../src/useMedia.js'
 
 describe('useMedia composable', () => {
   beforeEach(() => {
